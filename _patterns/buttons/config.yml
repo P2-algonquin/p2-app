@@ -1,0 +1,13 @@
+title: "Buttons"
+description: |
+  Buttons can be used to lead users to a different link or to activate something.
+
+patterns:
+    basic:
+      title: "Basic Btn"
+      description: |
+        The basic button should be used .
+    ghost:
+      title: "Ghost Btn"
+      description: |
+        The ghost button should be used .
