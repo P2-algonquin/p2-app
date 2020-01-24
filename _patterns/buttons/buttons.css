@@ -1,0 +1,39 @@
+.btn-basic {
+  background-color: var(--color-secondary-green);
+  color: var(--color-primary-dark);
+  border: var(--color-secondary-green);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.btn-basic:hover {
+  background-color: var(--color-secondary-lt-green);
+  color: var(--color-primary-dark);
+  border: var(--color-secondary-green);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+
+.btn-ghost {
+  background-color: none;
+  color: white;
+  border: var(--color-secondary-green);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: thick;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-secondary-green);
+  color: var(--color-primary-dark);
+  border: var(--color-secondary-green);
+  font-weight: 700;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: thick;
+}
