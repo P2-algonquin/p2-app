@@ -1,0 +1,86 @@
+:root {
+  --color-primary-lt: #c0c3cf;
+  --color-primary-med: #7f8495;
+  --color-primary-dark: #4c5268;
+  --color-primary-darkest: #222638;
+  --color-secondary-lt-green: #e5f59b;
+  --color-secondary-green: #cbe54e;
+
+
+  --font-family: 'Rubik', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-size: 3.815em;
+  color: var(--color-secondary-green);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.052em;
+}
+
+h3 {
+  font-size: 2.441em;
+}
+
+h4 {
+  font-size: 1.593em;
+}
+
+h5 {
+  font-size: 1.563em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1em;
+  color: white;
+}
+
+em {
+  font-weight: 700;
+  color: var(--color-secondary-green);
+}
+
+a {
+  color: var(--color-secondary-green);
+}
+
+::before {
+  display: none;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  color: var(--color-secondary-green);
+  display: inline-block;
+  width: 1em;
+  padding-right: 2.5em;
+  font-weight: 700;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+mark {
+  background-color: var(--color-secondary-lt-green);
+  color: var(--color-primary-darkest);
+}
