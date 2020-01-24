@@ -1,2 +1,21 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+    title: "Player 2"
+    description: |
+      A way to find other gamers with common interests.
+    font_url: "https://fonts.googleapis.com/css?family=Rubik"
+    colors:
+      background: "--color-primary-med"
+      accent: "--color-secondary-green"
+    rationales:
+      typefaces.primary: |
+        Rubik was selected for it's soft edgeness and because it has the same look as other video game fonts.
+      colors.primary: |
+        The primary colours were chosen since gamers are used to dark themes.
+      colors.secondary: |
+        The secondary colours were chosen to contrast the primary and give a tech feel.
+    layouts:
+      default: |
+        The default layout should be used for almost every page, it includes the website's primary header & footer.
