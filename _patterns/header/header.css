@@ -1,0 +1,12 @@
+header {
+  background-color: var(--color-primary-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-secondary-green);
+}
