@@ -41,3 +41,8 @@
   border-style: solid;
   border-width: thick;
 }
+
+.btn-nav {
+  background-color: none;
+  color: var(--color-secondary-green);
+}
