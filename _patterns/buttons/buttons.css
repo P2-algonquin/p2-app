@@ -5,15 +5,19 @@
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   border-radius: 15px;
+  border-style: solid;
+  border-width: thick;
 }
 
 .btn-basic:hover {
-  background-color: var(--color-secondary-lt-green);
-  color: var(--color-primary-dark);
-  border: var(--color-secondary-green);
+  background-color: var(--color-primary-darkest);
+  color: white;
+  border: var(--color-primary-darkest);
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   border-radius: 15px;
+  border-style: solid;
+  border-width: thick;
 }
 
 
