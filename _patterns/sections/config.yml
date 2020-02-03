@@ -1,0 +1,24 @@
+title: "Sections"
+description: |
+  Sections can be used to group and separate content.
+
+patterns:
+    image-banner:
+      title: "Image Banner"
+      description: |
+        The image banner section is used on both the profile and the discover page.
+      fields:
+        - name: image
+          type: string
+          example: "/images/placeholder-banner.jpg"
+        - name: alt
+          type: string
+          example: "Accessability stuff"
+    section-banner-profile:
+      title: "Profile Banner"
+      description: |
+        The Profile Banner is used on the profile page to display the users cover photo and profile picture.
+    section-banner-discover:
+      title: "Discover Banner"
+      description: |
+        The Discover Banner is used on the Discover page as an intro to the section.
