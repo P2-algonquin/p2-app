@@ -1,0 +1,9 @@
+.profile-image {
+  background-color: var(--color-secondary-green);
+}
+
+.card {
+  background-color: var(--color-primary-lt);
+  min-height: 100%;
+  min-width: 100%;
+}

@@ -1,0 +1,13 @@
+title: "Cards"
+description: |
+  Cards can be used to group and separate content.
+
+patterns:
+    image:
+      title: "Image Card"
+      description: |
+        The image card should be used for profile pictures only.
+    profile:
+      title: "Profile Card"
+      description: |
+        The profile card should be used to group content with the image card on the discover page.
