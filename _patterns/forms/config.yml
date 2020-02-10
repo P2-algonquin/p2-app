@@ -33,3 +33,11 @@ patterns:
       - name: placeholder
         type: string
         example: "Write your text here."
+  submit:
+    title: "Submit"
+    description: |
+      This button is specifically for submitting forms and should only be used for forms.
+    fields:
+      - name: submit
+        type: string
+        example: "Submit!"
