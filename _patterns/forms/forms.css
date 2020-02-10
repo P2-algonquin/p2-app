@@ -35,3 +35,7 @@ select:focus {
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+fieldset {
+  border: none;
+}

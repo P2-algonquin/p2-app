@@ -33,6 +33,20 @@ patterns:
       - name: placeholder
         type: string
         example: "Write your text here."
+  radio:
+    title: "Radio"
+    description: |
+      This is for selecting the time zone options on the settings page.
+    fields:
+      - name: label
+        type: string
+        example: "Select Time Zone"
+      - name: text
+        type: string
+        example: "Same Time Zone"
+      - name: error
+        type: string
+        example: "Please select an option"
   dropdown:
     title: "Drop Down"
     description: |
