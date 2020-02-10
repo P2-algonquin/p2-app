@@ -45,6 +45,10 @@ p {
   color: white;
 }
 
+.black {
+  color: black;
+}
+
 em {
   font-weight: 700;
   color: var(--color-secondary-green);
