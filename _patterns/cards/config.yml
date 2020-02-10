@@ -7,6 +7,13 @@ patterns:
       title: "Image Card"
       description: |
         The image card should be used for profile pictures only.
+      fields:
+        - name: name
+          type: string
+          example: "Bob Burberry"
+        - name: error
+          type: string
+          example: "You need to enter some text"
       width: 15em
     profile:
       title: "Profile Card"
