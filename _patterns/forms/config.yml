@@ -34,6 +34,7 @@ patterns:
         type: string
         example: "Write your text here."
   radio:
+<<<<<<< Updated upstream
     title: "Radio"
     description: |
       This is for selecting the time zone options on the settings page.
@@ -47,3 +48,12 @@ patterns:
       - name: error
         type: string
         example: "Please select an option"
+=======
+    title: "Radio Buttons"
+    description: |
+      To be used on the settings page for selecting time zones.
+    fields:
+      - name: label
+        type: string
+        example: "Same Time Zone"
+>>>>>>> Stashed changes
