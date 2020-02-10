@@ -33,3 +33,29 @@ patterns:
       - name: placeholder
         type: string
         example: "Write your text here."
+  dropdown:
+    title: "Drop Down"
+    description: |
+      This should be used when there is a long list of options to be chosen from.
+    fields:
+      - name: label
+        type: string
+        example: "Select an option"
+      - name: select
+        type: string
+        example: "Select an option"
+      - name: option1
+        type: string
+        example: "Option 1"
+      - name: option2
+        type: string
+        example: "Option 2"
+      - name: option3
+        type: string
+        example: "Option 3"
+      - name: option4
+        type: string
+        example: "Option 4"
+      - name: error
+        type: string
+        example: "Please select an option"
