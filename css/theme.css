@@ -84,3 +84,11 @@ mark {
   background-color: var(--color-secondary-lt-green);
   color: var(--color-primary-darkest);
 }
+
+.green-secondary {
+  color: var(--color-secondary-green);
+}
+
+.bg-grey {
+  background-color: var(--color-primary-lt);
+}

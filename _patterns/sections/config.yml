@@ -22,3 +22,7 @@ patterns:
       title: "Discover Banner"
       description: |
         The Discover Banner is used on the Discover page as an intro to the section.
+    section-discover-profile:
+      title: "Discover Profiles Section"
+      description: |
+        The Discover Banner is used on the Discover page as an intro to the section.
