@@ -27,3 +27,6 @@ patterns:
       - name: image
         type: string
         example: "placeholder-banner.jpg"
+      - name: game
+        type: string
+        example: "I'm a long game title"
