@@ -47,3 +47,8 @@
   color: var(--color-secondary-green);
   border: none;
 }
+
+.btn-add:hover {
+  border: none;
+  color: var(--color-secondary-lt-green);
+}
