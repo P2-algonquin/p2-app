@@ -1,0 +1,13 @@
+title: "Header"
+description: |
+  Headers are used for every page for navigation.
+
+patterns:
+  header:
+    title: "Main Header"
+    description: |
+      This is the basic header. It is used for most pages.
+    fields:
+      - name: header-title
+        type: string
+        example: "Profile"
