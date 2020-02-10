@@ -11,7 +11,3 @@ patterns:
       title: "Ghost Btn"
       description: |
         The ghost button should be used next to the basic button if two buttons are next to each other.
-    hamburger:
-      title: "Hamburger"
-      description: |
-        The hamburger button should only be used in the navigation.
