@@ -11,9 +11,9 @@ patterns:
         - name: name
           type: string
           example: "Bob Burberry"
-        - name: error
+        - name: bio
           type: string
-          example: "You need to enter some text"
+          example: "Something Bioish"
       width: 15em
     profile:
       title: "Profile Card"
