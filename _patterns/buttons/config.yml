@@ -4,10 +4,28 @@ description: |
 
 patterns:
     basic:
-      title: "Basic Btn"
+      title: "Basic"
       description: |
         The basic button should be used for all standard call-to-actions.
+      fields:
+        - name: link
+          type: string
+          example: "/#/"
+        - name: name
+          type: string
+          example: "Btn Basic"
     ghost:
-      title: "Ghost Btn"
+      title: "Ghost"
       description: |
         The ghost button should be used next to the basic button if two buttons are next to each other.
+      fields:
+        - name: link
+          type: string
+          example: "/#/"
+        - name: name
+          type: string
+          example: "Btn Ghost"
+    add:
+      title: "Add"
+      description: |
+        The add button is used when adding selections on the profile page.
