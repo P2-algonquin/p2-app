@@ -11,9 +11,9 @@ patterns:
       - name: label
         type: string
         example: "Text"
-      - name: error
+      - name: bio
         type: string
-        example: "You need to enter some text"
+        example: "I like playing multiplayer, but I have no one to play with :("
   email:
     title: "Email"
     description: |
@@ -34,7 +34,6 @@ patterns:
         type: string
         example: "Write your text here."
   radio:
-<<<<<<< Updated upstream
     title: "Radio"
     description: |
       This is for selecting the time zone options on the settings page.
@@ -48,12 +47,37 @@ patterns:
       - name: error
         type: string
         example: "Please select an option"
-=======
-    title: "Radio Buttons"
+  dropdown:
+    title: "Drop Down"
     description: |
-      To be used on the settings page for selecting time zones.
+      This should be used when there is a long list of options to be chosen from.
     fields:
       - name: label
         type: string
-        example: "Same Time Zone"
->>>>>>> Stashed changes
+        example: "Select an option"
+      - name: select
+        type: string
+        example: "Select an option"
+      - name: option1
+        type: string
+        example: "Option 1"
+      - name: option2
+        type: string
+        example: "Option 2"
+      - name: option3
+        type: string
+        example: "Option 3"
+      - name: option4
+        type: string
+        example: "Option 4"
+      - name: error
+        type: string
+        example: "Please select an option"
+  submit:
+    title: "Submit"
+    description: |
+      This button is specifically for submitting forms and should only be used for forms.
+    fields:
+      - name: submit
+        type: string
+        example: "Submit!"

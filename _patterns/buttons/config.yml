@@ -6,8 +6,8 @@ patterns:
     basic:
       title: "Basic Btn"
       description: |
-        The basic button should be used .
+        The basic button should be used for all standard call-to-actions.
     ghost:
       title: "Ghost Btn"
       description: |
-        The ghost button should be used .
+        The ghost button should be used next to the basic button if two buttons are next to each other.
