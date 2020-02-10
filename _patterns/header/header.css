@@ -11,6 +11,10 @@ a:hover {
   border-bottom-color: var(--color-secondary-green);
 }
 
+.icon:hover {
+  border: none;
+}
+
 label.nav-label::before {
   display: none;
 }
