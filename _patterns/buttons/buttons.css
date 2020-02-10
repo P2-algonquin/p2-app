@@ -41,3 +41,14 @@
   border-style: solid;
   border-width: thick;
 }
+
+.btn-add {
+  background-color: none;
+  color: var(--color-secondary-green);
+  border: none;
+}
+
+.btn-add:hover {
+  border: none;
+  color: var(--color-secondary-lt-green);
+}
