@@ -59,3 +59,11 @@ patterns:
       - name: error
         type: string
         example: "Please select an option"
+  submit:
+    title: "Submit"
+    description: |
+      This button is specifically for submitting forms and should only be used for forms.
+    fields:
+      - name: submit
+        type: string
+        example: "Submit!"
