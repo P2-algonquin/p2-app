@@ -81,3 +81,14 @@ patterns:
       - name: submit
         type: string
         example: "Submit!"
+  range:
+    title: "Age Range Slider"
+    description: |
+      This slider is for use on the settings page, and is used to select desired age range of friends.
+    fields:
+      - name: label
+        type: string
+        example: "Desired Age Range"
+      - name: error
+        type: string
+        example: "Please select an age range"
