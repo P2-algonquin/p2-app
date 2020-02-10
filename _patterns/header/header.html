@@ -1,6 +1,6 @@
 <header class="masthead header" role="banner">
   <div class="grid island-1-2">
-    <div class="unit xs-1 m-1-4 l-1-2 gutter">
+    <div class="unit xs-3-4 s-3-4 m-1-4 l-1-2 gutter">
       <a href="#">
         <i class="icon i-32">
           <img src="/images/logo-32.svg" alt="">
@@ -14,7 +14,7 @@
       </ul>
     </div>
 
-    <div class="unit xs-0 m-3-4 l-1-2 text-right">
+    <div class="unit unit-xs-hidden unit-s-hidden xs-0 m-3-4 l-1-2 text-right">
       <nav role="navigation" id="nav">
         <ul class="list-group-inline push-0">
           <li class="gutter push-r-1-2">
@@ -28,6 +28,31 @@
           </li>
         </ul>
       </nav>
+    </div>
+
+    <div class="unit xs-1-4 s-1-4 m-0 header-b island-1-4 text-left">
+      <ul class="grid list-group-inline push-0">
+        <li class="unit xs-1-4">
+          <input type="checkbox" class="nav-check" id="nav-check">
+          <label class="nav-label" for="nav-check">
+            <i class="icon nav-open i-32"><svg><use xlink:href="/images/icons.svg#hamburger"></use></svg></i>
+            <i class="icon nav-close i-32"><svg><use xlink:href="/images/icons.svg#close"></use></svg></i>
+          </label>
+          <nav role="navigation" id="nav" class="nav nav-s pad-t gutter">
+            <ul class="grid header island-1-2 list-group push-0">
+              <li class="unit xs-1 s-1 push pad-t-1-2">
+                <a class="pad-b-1-8" href="#">Dashboard</a>
+              </li>
+              <li class="unit xs-1 s-1 push pad-t-1-2">
+                <a class="pad-b-1-8" href="#">Discover</a>
+              </li>
+              <li class="unit xs-1 s-1 push pad-t-1-2">
+                <a class="pad-b-1-8" href="#">Profile</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
     </div>
 
   </div>
