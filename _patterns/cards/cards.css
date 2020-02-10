@@ -12,3 +12,12 @@
   background-color: var(--color-primary-dark);
   color: white;
 }
+
+.profile-img-l {
+
+}
+
+.profile-card-large {
+  /* height: 300px; */
+  background-color: var(--color-primary-dark);
+}
