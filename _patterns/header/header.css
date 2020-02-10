@@ -11,6 +11,10 @@ a:hover {
   border-bottom-color: var(--color-secondary-green);
 }
 
+label.nav-label::before {
+  display: none;
+}
+
 .nav-s {
   background-color: var(--color-primary-dark);
 }
@@ -22,30 +26,13 @@ a:hover {
   padding: 0;
   position: absolute;
   top: 74px;
-left: 0;
-z-index: 2;
-}
-
-.nav-label {
-  cursor: pointer;
-}
-
-.nav-label i {
-  display: block;
-}
-
-.nav-check {
-  position: absolute;
+  left: 0;
+  z-index: 2;
 }
 
 .nav-close {
   display: none;
 }
-
-label.nav-label::before {
-  display: none;
-}
-
 
 .nav-check:checked ~ .nav {
   display: block;
@@ -57,6 +44,12 @@ label.nav-label::before {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+
+
+.nav-check {
+  position: absolute;
 }
 
 .nav-grid {
