@@ -2,22 +2,20 @@
   background-color: var(--color-secondary-green);
   color: var(--color-primary-dark);
   border: var(--color-secondary-green);
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 12px;
   border-style: solid;
-  border-width: thick;
+  border-width: medium;
 }
 
 .btn-basic:hover {
   background-color: var(--color-primary-darkest);
   color: white;
   border: var(--color-primary-darkest);
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 12px;
   border-style: solid;
-  border-width: thick;
+  border-width: medium;
 }
 
 
@@ -25,11 +23,10 @@
   background-color: none;
   color: white;
   border: var(--color-secondary-green);
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 12px;
   border-style: solid;
-  border-width: thick;
+  border-width: medium;
 }
 
 .btn-ghost:hover {
@@ -37,9 +34,9 @@
   color: var(--color-primary-dark);
   border: var(--color-secondary-green);
   font-weight: 700;
-  border-radius: 15px;
+  border-radius: 12px;
   border-style: solid;
-  border-width: thick;
+  border-width: medium;
 }
 
 .btn-add {
