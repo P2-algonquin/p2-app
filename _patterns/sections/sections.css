@@ -25,6 +25,11 @@
   min-width: 8em;
 }
 
+.game-card {
+  max-width: 240px;
+  max-height: 135px;
+}
+
 @media only screen and (min-width: 38em) {
 
   .img, .img-left {
