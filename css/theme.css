@@ -93,6 +93,10 @@ mark {
   color: var(--color-secondary-green);
 }
 
+.green-secondary-lt {
+  color: var(--color-secondary-lt-green);
+}
+
 .bg-grey {
-  background-color: var(--color-primary-lt);
+  background-color: var(--color-primary-med);
 }
