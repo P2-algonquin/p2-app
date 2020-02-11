@@ -1,10 +1,22 @@
-<section class="relative">
-  <div class="img-left flex-row">
-    <div class="img-dash">{% pattern cards/image %}</div>
-    <div class="dash-info gutter">
-      <h5 class="push-1-4">Sarah Timberland</h5>
-      <p>Time Zone</p>
-    </div>
+<div class="grid">
+
+  <div class="unit unit-xs-hidden unit-s-hidden m-1 l-1">
+    <section class="relative">
+      <div class="pin-c">
+        <h2>Dashboard</h2>
+        <p>Here are people that are looking to connect with you.</p>
+      </div>
+      {% pattern sections/image-banner image="/images/placeholder-banner.jpg" alt="Accessability stuff" %}
+    </section>
   </div>
-  {% pattern sections/image-banner image="/images/placeholder-banner.jpg" alt="Accessability stuff" %}
-</section>
+
+  <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden">
+    <section class="relative">
+      <div class="pin-c">
+        <p class="push-0">Discover people with common gaming interests as you! Reach out to them to communicate.</p>
+      </div>
+      {% pattern sections/image-banner image="/images/placeholder-banner.jpg" alt="Accessability stuff" %}
+    </section>
+  </div>
+
+</div>
