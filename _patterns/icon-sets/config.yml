@@ -1,0 +1,17 @@
+title: "Icon Sets"
+description: |
+  For miscellaneous icons that go together.
+
+patterns:
+    icon-inline:
+      title: "Icon Sets"
+      description: |
+        The icon sets is for the icons on the profile cards.
+    platform:
+      title: "Platform Label"
+      description: |
+        The platform labels is for users to select their platforms.
+      fields:
+        - name: platform
+          type: string
+          example: "Nintendo Switch"
