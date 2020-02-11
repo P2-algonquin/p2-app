@@ -8,6 +8,11 @@ patterns:
     description: |
       The image card should be used for profile pictures only.
     width: 15em
+  card-image-edit:
+    title: "Image Card Edit"
+    description: |
+      The image card edit should only be used during the profile settings.
+    width: 15em
   profile:
     title: "Profile Card"
     description: |
