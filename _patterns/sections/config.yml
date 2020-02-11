@@ -26,3 +26,20 @@ patterns:
       title: "Discover Profiles Section"
       description: |
         The Discover Banner is used on the Discover page as an intro to the section.
+    section-profile-display:
+      title: "Profile Display"
+      description: |
+        The Discover Banner is used on the Discover page as an intro to the section.
+      fields:
+        - name: name
+          type: string
+          example: "George Micheal"
+        - name: age
+          type: string
+          example: "26"
+        - name: timezone
+          type: string
+          example: "Eastern Time"
+        - name: type
+          type: string
+          example: "Commander"
