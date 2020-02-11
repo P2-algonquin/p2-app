@@ -9,6 +9,7 @@ a {
 a:hover {
   border-bottom-style: solid;
   border-bottom-color: var(--color-secondary-green);
+  transition: all .2s linear;
 }
 
 .icon:hover {
@@ -29,7 +30,7 @@ label.nav-label::before {
   width: 100vw;
   padding: 0;
   position: absolute;
-  top: 74px;
+  top: 50px;
   left: 0;
   z-index: 2;
 }
@@ -50,8 +51,6 @@ label.nav-label::before {
   display: block;
 }
 
-
-
 .nav-check {
   position: absolute;
 }
@@ -62,6 +61,16 @@ label.nav-label::before {
 
 .nav-small {
     z-index: 1;
+}
+
+.nav-open:hover {
+  color: var(--color-secondary-green);
+  transition: all .2s linear;
+}
+
+.nav-close:hover {
+  color: var(--color-secondary-green);
+  transition: all .2s linear;
 }
 
 .nav-wrapper {

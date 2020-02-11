@@ -41,12 +41,15 @@ patterns:
       - name: label
         type: string
         example: "Select Time Zone"
-      - name: text
+      - name: text1
         type: string
         example: "Same Time Zone"
-      - name: error
+      - name: text2
         type: string
-        example: "Please select an option"
+        example: "Different Time Zone"
+      - name: text3
+        type: string
+        example: "Another Time Zone"
   dropdown:
     title: "Drop Down"
     description: |
