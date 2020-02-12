@@ -1,0 +1,16 @@
+title: "Footer"
+description: |
+  The footer is used at the bottom of every main page. It includes auxiliary information such as social media links, settings link, and copyright information.
+
+patterns:
+  footer:
+    title: "Main Footer"
+    description: |
+      This is the basic footer. It is used for most pages.
+    fields:
+      - name: link-text
+        type: string
+        example: "Settings"
+      - name: link
+        type: string
+        example: "/#/"
