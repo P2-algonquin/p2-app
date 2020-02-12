@@ -1,0 +1,11 @@
+footer {
+  background-color: var(--color-primary-dark);
+}
+
+@media only screen and (min-width: 90em) {
+
+  .t-r {
+    text-align: right;
+  }
+
+}
