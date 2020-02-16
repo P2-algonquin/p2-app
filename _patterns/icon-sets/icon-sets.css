@@ -8,3 +8,9 @@
   border-style: solid;
   border-width: medium;
 }
+
+.a-icon:hover {
+  border: none;
+  color: var(--color-primary-lt);
+  transition: all .2s linear;
+}
