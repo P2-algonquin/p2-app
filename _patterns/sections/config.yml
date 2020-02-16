@@ -29,7 +29,7 @@ patterns:
     section-profile-display:
       title: "Profile Display"
       description: |
-        The Discover Banner is used on the Discover page as an intro to the section.
+        The Profile Display section is used for the viewing section of the profile page.
       fields:
         - name: name
           type: string
@@ -43,3 +43,11 @@ patterns:
         - name: type
           type: string
           example: "Commander"
+    section-banner-dashboard:
+      title: "Dashboard Profiles Section"
+      description: |
+        The Dashboard Banner is used on the Dashboard page as an intro to the section.
+    section-banner-profile-edit:
+      title: "Profile Banner Edit"
+      description: |
+        The Profile Banner Edit is used on the edit state of the profile page.

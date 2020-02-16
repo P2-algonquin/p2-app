@@ -27,11 +27,11 @@ patterns:
   card-profile-discover:
     title: "Full Profile Card"
     description: |
-      The profile card should be used to group content with the image card on the discover page.
+      The full profile card is a combination of the profile card with the image card to be used on the discover page.
   games:
     title: "Game Card"
     description: |
-      The game card should be used for the top 3 games that the user wants.
+      The game card should be used to display the top 3 games that the user likes.
     fields:
       - name: image
         type: string
