@@ -1,6 +1,5 @@
 .img-banner {
   width: 100%;
-  z-index: 10;
 }
 
 .img {
@@ -32,6 +31,19 @@
 
 .game-card-s {
 
+}
+
+.top {
+  z-index: 10;
+}
+
+.up {
+  width: 30%;
+  position: absolute;
+  z-index: 20;
+  bottom: -18%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media only screen and (min-width: 38em) {
