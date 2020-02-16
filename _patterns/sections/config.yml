@@ -13,7 +13,7 @@ patterns:
           example: "/images/placeholder-banner.jpg"
         - name: alt
           type: string
-          example: "Accessability stuff"
+          example: "Accessibility stuff"
     section-banner-profile:
       title: "Profile Banner"
       description: |
