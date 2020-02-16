@@ -10,9 +10,16 @@ patterns:
     platform:
       title: "Platform Label"
       description: |
-        The platform labels is for users to select their platforms.
+        The platform label is for users to select their platforms.
       fields:
         - name: platform
           type: string
           example: "Nintendo Switch"
-
+    genre:
+      title: "Game Genre Label"
+      description: |
+        The game genre label is for users to select their platforms.
+      fields:
+        - name: genre
+          type: string
+          example: "Strategy"
