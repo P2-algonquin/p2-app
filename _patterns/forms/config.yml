@@ -11,9 +11,6 @@ patterns:
       - name: label
         type: string
         example: "Text"
-      - name: bio
-        type: string
-        example: "I like playing multiplayer, but I have no one to play with :("
   email:
     title: "Email"
     description: |
