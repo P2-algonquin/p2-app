@@ -23,3 +23,6 @@ patterns:
         - name: genre
           type: string
           example: "Strategy"
+        - name: icon
+          type: string
+          example: "/images/icons.svg#strat-icon"
