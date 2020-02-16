@@ -1,0 +1,37 @@
+---
+layout: default
+title: Player 2 · Bob Burberry
+---
+
+<div class="grid">
+
+  <div class="unit unit-xs-hidden unit-s-hidden m-1 l-1">
+    <div class="push">
+      {% pattern sections/section-banner-profile %}
+    </div>
+  </div>
+
+  <div class="unit unit-xs-hidden s-1 unit-m-hidden unit-l-hidden">
+    <div class="push-2">
+      {% pattern sections/section-banner-profile %}
+      <div class="pad-t-2">
+        {% pattern navigations/nav-profile-buttons %}
+      </div>
+    </div>
+  </div>
+
+  <div class="unit xs-1 unit-s-hidden unit-m-hidden unit-l-hidden">
+    <div class="push">
+      {% pattern sections/section-banner-profile %}
+      <div class="pad-t">
+        {% pattern navigations/nav-profile-buttons %}
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="push-2">
+  {% pattern sections/section-profile-display name="Bob Burberry" age="31" timezone="Pacific Time" type="Architect" %}
+</div>
