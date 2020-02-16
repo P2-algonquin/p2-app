@@ -1,9 +1,14 @@
-<section class="relative">
-  <div class="img">
-    {% pattern cards/card-image-edit %}
+<section>
+  <div class="relative">
+    <div class="img">
+      {% pattern cards/card-image-edit %}
+    </div>
+    <div class="pin-lb island-1-2">
+      {% pattern buttons/basic link="/#/" name="Update" %}
+    </div>
+    {% pattern sections/image-banner image="/images/placeholder-banner.jpg" alt="Accessability stuff" %}
   </div>
-  <div class="pin-lb island-1-2">
-    {% pattern buttons/basic link="/#/" name="Update" %}
-  </div>
-  {% pattern sections/image-banner image="/images/placeholder-banner.jpg" alt="Accessability stuff" %}
+  <ul class="list-group-inline pad-t-1-2 gutter text-right">
+    <li>{% pattern buttons/basic link="/my-profile/" name="Save Changes" %}</li>
+  </ul>
 </section>
