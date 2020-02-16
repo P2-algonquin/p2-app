@@ -25,15 +25,6 @@
   min-width: 8em;
 }
 
-.game-card {
-  max-width: 240px;
-  max-height: 135px;
-}
-
-.game-card-s {
-
-}
-
 .up {
   width: 30%;
   position: absolute;
@@ -46,6 +37,10 @@
 .c-hori {
   display: flex;
   align-items: center;
+}
+
+.game-card {
+  padding-right: 10px;
 }
 
 @media only screen and (min-width: 38em) {

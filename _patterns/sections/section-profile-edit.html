@@ -43,18 +43,18 @@
       {% pattern forms/text label="Display Name" %}
       {% pattern forms/text label="Age" %}
       {% pattern forms/dropdown label="Time Zone" select="Select an option" option1="Eastern Time" option2="Central Time" option3="Mountain Time" option4="Pacific Time" error="Please select an option" %}
-      <ul class="list-group-inline pad-t-1-2 push-1-4">
+      <ul class="list-group-inline pad-t-1-2 push-1-4 c-hori">
         <li class="push-r-1-4">{% pattern icon-sets/platform platform="Nintendo Switch" %}</li>
-        <li class="push-r-1-4">{% pattern icon-sets/platform platform="PC" %}</li>
+        <li class="push-r-1-2">{% pattern icon-sets/platform platform="PC" %}</li>
         <li>{% pattern buttons/add %}</li>
       </ul>
       {% pattern forms/dropdown label="Personality Type" select="Select an option" option1="Advocate" option2="Mediator" option3="Protagonist" option4="Campaigner" error="Please select an option" %}
       <div class="push-3-4">
         {% pattern buttons/ghost link="https://www.16personalities.com/free-personality-test" name="Learn More" %}
       </div>
-      <ul class="list-group-inline push-1-2">
+      <ul class="list-group-inline push-1-2 c-hori">
         <li class="push-r-1-4">{% pattern icon-sets/genre genre="Adventure" icon="/images/icons.svg#advent-icon" %}</li>
-        <li class="push-r-1-4">{% pattern icon-sets/genre genre="Adventure" icon="/images/icons.svg#rpg-icon" %}</li>
+        <li class="push-r-1-2">{% pattern icon-sets/genre genre="Adventure" icon="/images/icons.svg#rpg-icon" %}</li>
         <li>{% pattern buttons/add %}</li>
       </ul>
       <div class="grid grid-middle">
