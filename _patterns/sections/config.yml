@@ -34,6 +34,9 @@ patterns:
         - name: name
           type: string
           example: "George Micheal"
+        - name: bio
+          type: string
+          example: "Wow"
         - name: age
           type: string
           example: "26"
