@@ -1,0 +1,9 @@
+title: "Navigations"
+description: |
+  Navigations are navs for sections other then the header.
+
+patterns:
+  nav-profile-buttons:
+    title: "Profile Buttons"
+    description: |
+      These buttons are for navigation to the edit state and settings.
