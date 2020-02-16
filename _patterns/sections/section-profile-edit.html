@@ -17,7 +17,9 @@
   <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2">
     <div class="gutter-2">
       {% pattern forms/dropdown label="Personality Type" select="Select an option" option1="Advocate" option2="Mediator" option3="Protagonist" option4="Campaigner" error="Please select an option" %}
-      {% pattern buttons/ghost link="https://www.16personalities.com/free-personality-test" name="Learn More" %}
+      <div class="push-1-2">
+        {% pattern buttons/ghost link="https://www.16personalities.com/free-personality-test" name="Learn More" %}
+      </div>
       <div class="grid">
         <div class="game-card unit unit xs-1 s-1 m-1-2 l-1-2 push-r-1-2">
           {% pattern cards/games image="placeholder-banner.jpg" game="Starbound" %}
@@ -33,14 +35,18 @@
 
   <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden">
     <div class="gutter-2">
-      <h4 class="push-1-2 green-secondary">{{include.name}}</h4>
-      <p class="push-1-4">{{include.age}}</p>
-      <p class="push-1-2">{{include.timezone}}</p>
-      <ul class="list-group-inline">
+      {% pattern forms/text label="Display Name" %}
+      {% pattern forms/text label="Age" %}
+      {% pattern forms/dropdown label="Time Zone" select="Select an option" option1="Eastern Time" option2="Central Time" option3="Mountain Time" option4="Pacific Time" error="Please select an option" %}
+      <ul class="list-group-inline pad-t-1-2 push-1-4">
         <li class="push-r-1-4">{% pattern icon-sets/platform platform="Nintendo Switch" %}</li>
-        <li>{% pattern icon-sets/platform platform="PC" %}</li>
+        <li class="push-r-1-4">{% pattern icon-sets/platform platform="PC" %}</li>
+        <li>{% pattern buttons/add %}</li>
       </ul>
-      <h5 class="push green-secondary-lt">{{include.type}}</h5>
+      {% pattern forms/dropdown label="Personality Type" select="Select an option" option1="Advocate" option2="Mediator" option3="Protagonist" option4="Campaigner" error="Please select an option" %}
+      <div class="push-3-4">
+        {% pattern buttons/ghost link="https://www.16personalities.com/free-personality-test" name="Learn More" %}
+      </div>
       <div class="grid grid-middle">
         <div class="game-card-s unit unit xs-1 s-1 m-1-2 l-1-2 push">
           {% pattern cards/games image="placeholder-banner.jpg" game="Starbound" %}
