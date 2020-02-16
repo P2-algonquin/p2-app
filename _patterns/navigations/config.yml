@@ -7,3 +7,7 @@ patterns:
     title: "Profile Buttons"
     description: |
       These buttons are for navigation to the edit state and settings.
+  nav-profile-save:
+    title: "Profile Save Button"
+    description: |
+      This navigation is formatted for the profile edit page on small sizes.
