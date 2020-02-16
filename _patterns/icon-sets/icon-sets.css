@@ -1,0 +1,10 @@
+.platform {
+  display: table;
+  background-color: var(--color-secondary-green);
+  color: var(--color-primary-dark);
+  border: var(--color-secondary-green);
+  font-weight: 700;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: medium;
+}
