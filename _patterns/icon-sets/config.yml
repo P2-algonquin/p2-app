@@ -1,0 +1,13 @@
+title: "Icon Sets"
+description: |
+  Icon sets are icons grouped together for easier use with other patterns.
+
+patterns:
+  icon-inline:
+    title: "Icon Inline"
+    description: |
+      This is a group of .
+    fields:
+      - name: header-title
+        type: string
+        example: "Profile"
