@@ -1,0 +1,70 @@
+<div class="grid">
+
+  <!-- Medium & Large Screens -->
+  <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2">
+    <div class="gutter-2">
+      <h4 class="push-1-2 green-secondary">{{include.name}}</h4>
+      <p class="push-1-4">{{include.bio}}</p>
+      <p class="push-1-4">Age: {{include.age}}</p>
+      <p class="push-1-2">Time Zone: {{include.timezone}}</p>
+      <ul class="list-group-inline">
+        <li class="push-r-1-4">{% pattern icon-sets/platform platform="Xbox One" %}</li>
+        <li>{% pattern icon-sets/platform platform="PlayStation 4" %}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2">
+    <div class="gutter-2">
+      <h5 class="push-1-2 green-secondary">{{include.type}}</h5>
+      <ul class="list-group-inline push-1-2">
+        <li class="push-r-1-4">{% pattern icon-sets/genre genre="Sandbox" icon="/images/icons.svg#sandb-icon" %}</li>
+        <li class="push-r-1-4">{% pattern icon-sets/genre genre="Strategy" icon="/images/icons.svg#strat-icon" %}</li>
+        <li>{% pattern icon-sets/genre genre="Puzzle" icon="/images/icons.svg#puzzle-icon" %}</li>
+      </ul>
+      <div class="grid">
+        <div class="unit unit xs-1 l-0 push-1-2">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Minecraft" %}
+        </div>
+        <div class="unit xs-1 l-0">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Terraria" %}
+        </div>
+        <div class="game-card unit unit xs-0 l-1-2">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Minecraft" %}
+        </div>
+        <div class="game-card unit xs-0 l-1-2">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Terraria" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Small Screens -->
+
+  <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden">
+    <div class="gutter-2">
+      <h4 class="push-1-2 green-secondary">{{include.name}}</h4>
+      <p class="push-1-4">{{include.age}}</p>
+      <p class="push-1-2">{{include.timezone}}</p>
+      <ul class="list-group-inline">
+        <li class="push-r-1-4">{% pattern icon-sets/platform platform="Xbox One" %}</li>
+        <li>{% pattern icon-sets/platform platform="PlayStation 4" %}</li>
+      </ul>
+      <h5 class="push green-secondary-lt">{{include.type}}</h5>
+      <ul class="list-group-inline push-1-2">
+        <li class="push-r-1-4">{% pattern icon-sets/genre genre="Sandbox" icon="/images/icons.svg#sandb-icon" %}</li>
+        <li class="push-r-1-4">{% pattern icon-sets/genre genre="Strategy" icon="/images/icons.svg#strat-icon" %}</li>
+        <li>{% pattern icon-sets/genre genre="Puzzle" icon="/images/icons.svg#puzzle-icon" %}</li>
+      </ul>
+      <div class="grid grid-middle">
+        <div class="unit unit xs-1 s-1 push">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Minecraft" %}
+        </div>
+        <div class="unit xs-1 s-1">
+          {% pattern cards/games image="placeholder-banner.jpg" game="Terraria" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
