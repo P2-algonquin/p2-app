@@ -1,8 +1,13 @@
 footer {
   background-color: var(--color-primary-dark);
+  z-index: 10;
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 38em) {
+
+  .t-l {
+    text-align: left;
+  }
 
   .t-r {
     text-align: right;
