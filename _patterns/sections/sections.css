@@ -43,6 +43,11 @@
   transform: translateX(-50%);
 }
 
+.c-hori {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (min-width: 38em) {
 
   .img, .img-left {
