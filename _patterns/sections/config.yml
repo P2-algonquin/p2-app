@@ -54,3 +54,15 @@ patterns:
       title: "Profile Banner Edit"
       description: |
         The Profile Banner Edit is used on the edit state of the profile page.
+    section-settings-account:
+      title: "Settings Account Section"
+      description: |
+        The Settings Account Section is used on the settings page to make changes to account settings.
+    section-settings-connections:
+      title: "Settings Connections Section"
+      description: |
+        The Settings Connections Section is used on the settings page to make changes to connections settings.
+    section-settings-discover:
+      title: "Settings Discover Section"
+      description: |
+        The Settings Discover Section is used on the settings page to make changes to discover settings.

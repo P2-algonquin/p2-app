@@ -58,7 +58,7 @@
   border-radius: 0px;
   border-style: solid;
   border-width: medium;
-  width: 20%;
+  width: 60%;
 }
 
 .btn-settings:hover, .btn-settings:active {
@@ -68,7 +68,7 @@
   font-weight: 700;
   border-style: solid;
   border-width: medium;
-  width: 20%;
+  width: 60%;
 }
 
 .top, .top:hover, .top:active {
@@ -77,4 +77,12 @@
 
 .middle, .middle:hover, .middle:active {
   border-bottom: none;
+}
+
+@media only screen and (max-width: 38em) {
+
+  .btn-settings {
+    width: 50%;
+  }
+
 }
