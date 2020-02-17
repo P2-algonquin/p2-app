@@ -35,7 +35,7 @@ patterns:
     fields:
       - name: image
         type: string
-        example: "placeholder-banner.jpg"
+        example: "starbound-banner-small.jpg"
       - name: game
         type: string
         example: "I'm a long game title"

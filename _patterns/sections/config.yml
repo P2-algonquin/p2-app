@@ -10,7 +10,7 @@ patterns:
       fields:
         - name: image
           type: string
-          example: "/images/placeholder-banner.jpg"
+          example: "/images/dashboard-banner.jpg"
         - name: alt
           type: string
           example: "Accessibility stuff"
