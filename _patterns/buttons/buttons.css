@@ -49,3 +49,32 @@
   border: none;
   color: var(--color-primary-darkest);
 }
+
+.btn-settings {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-green);
+  border: var(--color-secondary-green);
+  font-weight: 700;
+  border-radius: 0px;
+  border-style: solid;
+  border-width: medium;
+  width: 20%;
+}
+
+.btn-settings:hover, .btn-settings:active {
+  background-color: var(--color-secondary-green);
+  color: var(--color-primary-dark);
+  border: var(--color-secondary-green);
+  font-weight: 700;
+  border-style: solid;
+  border-width: medium;
+  width: 20%;
+}
+
+.top, .top:hover, .top:active {
+  border-bottom: none;
+}
+
+.middle, .middle:hover, .middle:active {
+  border-bottom: none;
+}
