@@ -11,3 +11,7 @@ patterns:
     title: "Profile Save Button"
     description: |
       This navigation is formatted for the profile edit page on small sizes.
+  nav-settings:
+    title: "Settings Navigation"
+    description: |
+      This navigation is used to move within the subsections of the settings page.

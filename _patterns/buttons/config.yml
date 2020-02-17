@@ -29,3 +29,36 @@ patterns:
       title: "Add"
       description: |
         The add button is used when adding selections on the profile page.
+    account:
+      title: "Account"
+      description: |
+        The account button should be used on the settings page to access the account settings.
+      fields:
+        - name: link
+          type: string
+          example: "#one"
+        - name: name
+          type: string
+          example: "Account"
+    connections:
+      title: "Connections"
+      description: |
+        The connections button should be used on the settings page to access connection settings.
+      fields:
+        - name: link
+          type: string
+          example: "#two"
+        - name: name
+          type: string
+          example: "Connections"
+    discover:
+        title: "Discover"
+        description: |
+          The discover button should be used on the settings page to access the friend finder settings.
+        fields:
+          - name: link
+            type: string
+            example: "#three"
+          - name: name
+            type: string
+            example: "Discover"
