@@ -1,8 +1,13 @@
-<div class="max-length pad-t-2">
-      {% pattern forms/range label="Desired Age Range" error="Please select an age range" %}
-      {% pattern forms/radio label="Select Time Zone" text1="Same Time Zone" text2="Different Time Zone" text3="Another Time Zone" %}
-    <div class="max-length">
-      {% pattern buttons/basic link="/settings-discover/" name="Save Changes" %}
+<div class="pad-t-2">
+  {% pattern forms/range label="Desired Age Range" error="Please select an age range" %}
+  <p class="milli black push-0">Preferred Time Zones</p>
+  {% pattern forms/checkbox label="North America" label2="South America" label3="Europe" label4="Asia" label5="Australia" label6="Africa" %}
+  <div class="grid pad-t">
+    <div class="unit push-r-1-4 push-1-2">
+      {% pattern buttons/basic link="/settings-account/" name="Save Changes" %}
+    </div>
+    <div class="unit">
       {% pattern buttons/basic link="/my-profile/" name="Back to Profile" %}
     </div>
+  </div>
 </div>

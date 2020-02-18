@@ -45,6 +45,10 @@ p {
   color: white;
 }
 
+hr {
+  border-color: var(--color-primary-darkest);
+}
+
 .black {
   color: black;
 }
