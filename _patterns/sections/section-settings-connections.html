@@ -1,9 +1,15 @@
 <div class="max-length pad-t-2">
     {% pattern forms/text label="Discord" %}
     {% pattern forms/text label="Steam" %}
-    {% pattern forms/text label="Playstation" %}
-    {% pattern forms/text label="Xbox" %}
-    {% pattern forms/text label="Nintendo" %}
-    {% pattern buttons/basic link="/settings-connections/" name="Save Changes" %}
-    {% pattern buttons/basic link="/my-profile/" name="Back to Profile" %}
+    {% pattern forms/text label="PlayStation ID" %}
+    {% pattern forms/text label="Xbox GT" %}
+    {% pattern forms/text label="Nintendo Network ID" %}
+    <div class="grid pad-t">
+      <div class="unit push-r-1-4 push-1-2">
+        {% pattern buttons/basic link="/settings-account/" name="Save Changes" %}
+      </div>
+      <div class="unit">
+        {% pattern buttons/basic link="/my-profile/" name="Back to Profile" %}
+      </div>
+    </div>
 </div>

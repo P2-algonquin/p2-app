@@ -30,23 +30,29 @@ patterns:
       - name: placeholder
         type: string
         example: "Write your text here."
-  radio:
-    title: "Radio"
+  checkbox:
+    title: "Checkbox"
     description: |
       This is for selecting the time zone options on the settings page.
     fields:
       - name: label
         type: string
-        example: "Select Time Zone"
-      - name: text1
+        example: "North America"
+      - name: label2
         type: string
-        example: "Same Time Zone"
-      - name: text2
+        example: "South America"
+      - name: label3
         type: string
-        example: "Different Time Zone"
-      - name: text3
+        example: "Europe"
+      - name: label4
         type: string
-        example: "Another Time Zone"
+        example: "Asia"
+      - name: label5
+        type: string
+        example: "Australia"
+      - name: label6
+        type: string
+        example: "Africa"
   dropdown:
     title: "Drop Down"
     description: |

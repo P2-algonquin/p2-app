@@ -1,9 +1,19 @@
-<div class="max-length pad-t-2">
-    {% pattern forms/text label="Username" %}
+<div class="pad-t-2">
+    {% pattern forms/text label="Display Name" %}
+    <hr>
     {% pattern forms/text label="Change Password" %}
-    {% pattern forms/text label="Confirm Password" %}
+    {% pattern forms/text label="Confirm New Password" %}
+    <hr>
     {% pattern forms/text label="Change Email" %}
-    {% pattern forms/text label="Confirm Email" %}
-    {% pattern buttons/basic link="/settings-account/" name="Save Changes" %}
-    {% pattern buttons/basic link="/my-profile/" name="Back to Profile" %}
+    {% pattern forms/text label="Confirm New Email" %}
+    <hr>
+    {% pattern forms/text label="Current Password" %}
+    <div class="grid pad-t">
+      <div class="unit push-r-1-4 push-1-2">
+        {% pattern buttons/basic link="/settings-account/" name="Save Changes" %}
+      </div>
+      <div class="unit">
+        {% pattern buttons/basic link="/my-profile/" name="Back to Profile" %}
+      </div>
+    </div>
   </div>

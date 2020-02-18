@@ -51,24 +51,24 @@
 }
 
 .btn-settings {
-  background-color: var(--color-primary-dark);
-  color: var(--color-secondary-green);
-  border: var(--color-secondary-green);
+  background-color: var(--color-primary-med);
+  color: var(--color-primary-darkest);
+  border: var(--color-primary-darkest);
   font-weight: 700;
   border-radius: 0px;
   border-style: solid;
   border-width: medium;
-  width: 60%;
+  width: 100%;
 }
 
-.btn-settings:hover, .btn-settings:active {
+.btn-settings:hover {
   background-color: var(--color-secondary-green);
-  color: var(--color-primary-dark);
-  border: var(--color-secondary-green);
+  color: var(--color-primary-darkest);
+  border: var(--color-primary-darkest);
   font-weight: 700;
   border-style: solid;
   border-width: medium;
-  width: 60%;
+  width: 100%;
 }
 
 .top, .top:hover, .top:active {
@@ -77,12 +77,4 @@
 
 .middle, .middle:hover, .middle:active {
   border-bottom: none;
-}
-
-@media only screen and (max-width: 38em) {
-
-  .btn-settings {
-    width: 50%;
-  }
-
 }
